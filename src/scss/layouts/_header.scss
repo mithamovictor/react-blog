@@ -1,0 +1,11 @@
+header {
+  .title-bar {
+    @include breakpoint(large) {
+      display: none;
+    }
+  }
+  
+  .logo {
+    max-width: 100px;
+  }
+}

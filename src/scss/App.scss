@@ -1,0 +1,21 @@
+@charset 'utf-8';
+
+@import "~foundation-sites/scss/foundation";
+@include foundation-everything;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600&display=swap');
+
+// template styles
+@import 'base/reset';
+
+@import 'abstracts/settings';
+
+@import 'layouts/body';
+@import 'layouts/header';
+@import 'layouts/footer';
+
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/blog';
+@import 'pages/contact';
